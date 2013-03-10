@@ -1,0 +1,34 @@
+<html>
+<title>Form Curriculum Vitae</title>
+<body style="background-color:green" >
+<style> .bord { border:2px solid black;} </style>
+<table border="2px solid blue" style="margin:50px 10px 5px 350px;background-color:white">
+<FORM METHOD=POST ACTION="D:\Kuuliah\Semester 4\PBWeb">
+  <tr><td colspan="2" class="bord" style="text-align:center"><h1>Form Curriculum Vitae</h1></td></tr>
+  <tr><td class="bord">Nama</td><td class="bord">: <INPUT NAME="NAMA" TYPE="TEXT" SIZE="25" MAXLENGTH="30"></td></tr>
+  <tr><td class="bord">TTL</td><td class="bord">: <INPUT NAME="TptLhr" TYPE="TEXT" SIZE="15" MAXLENGTH="20" VALUE="Tempat Lahir">
+		  <INPUT NAME="Tgl" TYPE="TEXT" SIZE="1" MAXLENGTH="2" VALUE="Tanggal">
+		  <INPUT NAME="Bln" TYPE="TEXT" SIZE="1" MAXLENGTH="2" VALUE="Bulan">
+		  <INPUT NAME="Thn" TYPE="TEXT" SIZE="4" MAXLENGTH="5" VALUE="Tahun"></td></tr>
+  <tr><td class="bord">Agama</td><td class="bord">: <SELECT NAME="Agm" size="1">
+		  <option selected value="">Pilih Agama
+				<option value="Isl">Islam				<option value="Krs">Kristen            	<option value="Kth">Katholik            	<option value="Hnd">Hindu            	<option value="Bud">Buddha
+ 		  </SELECT></td></tr>
+  <tr><td class="bord">Alamat</td><td class="bord"><TEXTAREA NAME="Alm" ROWS=4 COLS=40></TEXTAREA></td></tr>
+  <tr><td class="bord">Riwayat Pendidikan</td><td class="bord"><OL><li><INPUT NAME="TK" TYPE="TEXT" SIZE="20" MAXLENGTH="25" VALUE="TK"></li>
+			  <li><INPUT NAME="SD" TYPE="TEXT" SIZE="20" MAXLENGTH="25" VALUE="SD"></li>
+			  <li><INPUT NAME="SMP" TYPE="TEXT" SIZE="20" MAXLENGTH="25" VALUE="SMP"></li>
+			  <li><INPUT NAME="SMA" TYPE="TEXT" SIZE="20" MAXLENGTH="25" VALUE="SMA"></li>
+			  <li><INPUT NAME="PT" TYPE="TEXT" SIZE="20" MAXLENGTH="25" VALUE="PT"></li></ol></td></tr>
+  <tr><td class="bord">Status</td><td class="bord"><ul><li><input type=radio name="Status" value="Lajang">Lajang
+   			<li><input type=radio name="Status" value="Menikah">Menikah
+			<li><input type=radio name="Status" value="Duda/Janda">Duda/Janda</ul></td></tr>
+  <tr><td class="bord">Golongan Darah</td><td class="bord">: <SELECT NAME="Gol" size="1">
+		  <option selected value="O">O
+		  <option value="A">A	          <option value="B">B            	  <option value="AB">AB
+  		  </SELECT></td></tr>
+  <tr><td class="bord"></td><td class="bord"><input type=submit value="Masukkan"><input type=reset value="Reset"></td></tr>
+</FORM>
+</table>
+</body>
+</html>
